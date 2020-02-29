@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/stack1.hpp
+memory
+-
+iostream
+-
+utility
+-
+
+../include/stack2.hpp
+memory
+-
+iostream
+-
+utility
+-
+
+/home/nitrousoxide/Lab5.0/sources/source.cpp
+stack1.hpp
+-
+stack2.hpp
+-
+
